@@ -1,11 +1,8 @@
 from webcrawl.bugsmusic import BugsCrawler
 
-__name__ == '__main__':
+if __name__ == '__main__':
+    print('a. 국회 크롤링: ')
+    print('b. 벅스 크롤링: ')
+    print('0. 종료 ')
 
 
-def bugsCrawler(https):
-    pass
-
-
-bm = bugsCrawler(https://music.bugs.co.kr/chart/track/realtime/total?chartdate=20190810&charthour=11)
-bm.scrap()
